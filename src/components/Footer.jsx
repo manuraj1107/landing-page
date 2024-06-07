@@ -1,10 +1,12 @@
-// src/App.js
+
 
 import React from 'react';
+import backgroundImage from '../assets/bg-layer.svg'; // Make sure to adjust the path if necessary
 
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500 text-center p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover' }}>
+      
       <h1 className="text-4xl font-bold text-black mb-4">Subscribe to our newsletter</h1>
       <form className="w-full max-w-sm">
         <div className="flex items-center border-b border-teal-500 py-2">

@@ -2,6 +2,9 @@ import VideoScrollControl from "./components/Video"
 import SplineScene from "./components/SplineHome"
 import TextAnimations from "./components/Contact"
 import Footer from "./components/Footer"
+import Categories from "./components/Categories"
+import Features from "./components/Features"
+
 
 function App() {
   
@@ -11,7 +14,8 @@ function App() {
       <SplineScene />
       <VideoScrollControl />
       <Footer />
-      
+      <Features />
+      <Categories />
     </main>
   )
 }
